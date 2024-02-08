@@ -44,7 +44,7 @@ function TempAppUsers() {
     };
 
     return (
-        <div className="tempappusers">
+        <div className="tempapp">
             {success ? (
                 <Success count={invates.length} />
             ) : (

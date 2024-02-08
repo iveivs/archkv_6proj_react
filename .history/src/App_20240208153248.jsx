@@ -3,7 +3,6 @@ import { useState } from 'react'
 import Modal1 from './components/modal/Modal1'
 import Modal2 from './components/modal2/Modal2'
 import Modal3 from './components/modal3/Modal3'
-import TempAppPhoto from './components/photo/TempAppPhoto'
 import QuizMain from './components/quiz/QuizMain'
 // import './components/quiz/index.scss'
 import TempAppUsers from './components/users/tempApp'
@@ -17,7 +16,7 @@ function App() {
       {/* <Modal3 />  */}
       {/* <QuizMain  /> */}
       {/* < TempAppUsers /> */}
-      <TempAppPhoto  />
+      <
     </>
   )
 }

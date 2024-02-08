@@ -6,7 +6,7 @@ import { Users } from "./Users/index";
 // Тут список пользователей: https://reqres.in/api/users
 // приложение для приглашения людей из списка пользователей
 // 
-function TempAppUsers() {
+function TempApp() {
     const [users, setUsers] = useState([]);
     const [invates, setInvates] = useState([]);
     const [success, setSuccess] = useState(false);
@@ -44,7 +44,7 @@ function TempAppUsers() {
     };
 
     return (
-        <div className="tempappusers">
+        <div className="tempapp">
             {success ? (
                 <Success count={invates.length} />
             ) : (
@@ -63,4 +63,4 @@ function TempAppUsers() {
     );
 }
 
-export default TempAppUsers;
+export default TempApp;
